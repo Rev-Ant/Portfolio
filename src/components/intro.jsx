@@ -1,7 +1,7 @@
 import { Image, Button, Container, Col, Row } from 'react-bootstrap'
 import clippy from './../assets/señor_clippy.png'
-import curriculo from '/home/ant/Documents/Private_Projects/Portfolio/src/assets/Real-World-Bug-Hunting.pdf'
-import background from '/home/ant/Downloads/image_4.jpg'
+import curriculo from './../assets/lp-2.pdf'
+import background from './../assets/image_4.jpg'
 import { FaDownload } from 'react-icons/fa'
 import { ReactTyped } from 'react-typed'
 
