@@ -3,5 +3,9 @@
 	/* padding: 2rem; */
 	/* padding-top: 56px; */
 	text-align: center;
-	background-color: #242424;
+	background-color: lightgrey;
+}
+
+.container-fluid {
+	scroll-margin-top: 56px;
 }

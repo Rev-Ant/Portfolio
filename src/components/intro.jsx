@@ -1,6 +1,6 @@
 import { Image, Button, Container, Col, Row } from 'react-bootstrap'
-import clippy from './../assets/señor_clippy.png'
-import curriculo from './../assets/lp-2.pdf'
+import clippy from './../assets/pfp.jpg.webp'
+import curriculo from './../assets/ac_resume.pdf'
 import background from './../assets/image_4.jpg'
 import { FaDownload } from 'react-icons/fa'
 import { ReactTyped } from 'react-typed'
@@ -9,19 +9,16 @@ function Intro() {
 	return (
 		<Container
 			fluid
-			style={{
-				// backgroundColor: "black",
-				// color: "white",
-			}}
+			id='intro'
 		>
 			<Row
 				className='d-flex justify-content-center'
 				style={{
-					// backgroundColor: 'red',
 					backgroundImage: `url(${background})`,
 					backgroundSize: "cover",
 					backgroundPosition: 'center',
 					backgroundRepeat: 'no-repeat',
+					// minHeight: 'calc(100vh - 56px)',
 					minHeight: '100vh',
 					alignItems: 'center'
 				}}
@@ -33,15 +30,15 @@ function Intro() {
 					/>
 				</Col>
 				<Col style={{ maxWidth: '650px' }}>
-					<h3>
+					<h2>
 						<ReactTyped
-							strings={['Olá, eu sou o Manuel Albuquerque']}
-							typeSpeed={50}
+							strings={['Olá, sou o António Caeiro']}
+							typeSpeed={75}
 						/>
-					</h3>
-					<p>
-						Um estudante de Engenharia Informática que gosta de fazer projetos
-						com diferentes tecnologias para aprender e evoluir constantemente.
+					</h2>
+					<p style={{ fontSize: '20px' }}>
+						Sou estudante de Engenharia Informática e gosto de fazer projetos
+						com diferentes tecnologias, procurando evoluir constantemente.
 					</p>
 					<Button
 						variant="light"
