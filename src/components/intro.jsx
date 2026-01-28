@@ -1,6 +1,6 @@
 import { Image, Button, Container, Col, Row } from 'react-bootstrap'
 import clippy from './../assets/pfp.jpg.webp'
-import curriculo from './../assets/ac_resume.pdf'
+import curriculo from './../assets/ac_cv_europass.pdf'
 import background from './../assets/image_4.jpg'
 import { FaDownload } from 'react-icons/fa'
 import { ReactTyped } from 'react-typed'
